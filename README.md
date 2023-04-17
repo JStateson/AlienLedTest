@@ -5,9 +5,13 @@ To build this program in VS2022 you will need c++, the SDK for win10/11 (v143) a
 Download boost and unzip into
 
  Directory of C:\Program Files\boost
+ 
 04/16/2023  11:34 PM           254,976 b2.exe
+
 ...
+
 ...
+
 04/10/2023  08:45 AM             2,486 bootstrap.bat
 
 After unzipping, run bootstrap.bat and then run b2.exe
