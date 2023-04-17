@@ -10,9 +10,12 @@ Download boost and unzip into
 ...
 04/10/2023  08:45 AM             2,486 bootstrap.bat
 
-After unziping, run bootstrap.bat and then run b2.exe
+After unzipping, run bootstrap.bat and then run b2.exe
 
 This app was based on "AlienFX-LED-tester"
 https://github.com/bchretien/AlienFX-LED-tester
-and the linux version "alinefx.tar.gz" which seems to be the same code
->>>>>>>>>THIS APP DID NOT WORK ON MY AREA-51 R4 SYSTEM><<<<<<<<<
+and the linux version "alienfx.tar.gz" which seems to be the same code or close to the above
+THIS APP DID NOT WORK ON MY AREA-51 R4 SYSTEM which is mentioned as "untested" in original source
+
+The purpose of this app is to get the LED lighting to work on a case that I added an MSI x299 raider motherboard
+It also failed to work on my genuine Dell Area=51 R4
