@@ -14,7 +14,7 @@
 #include <cstddef>
 using namespace std;
 
-//#define ALIENFX_DEBUG
+#define ALIENFX_DEBUG
 
 #define ALIENFX_USER_CONTROLS 0x01
 #define ALIENFX_SLEEP_LIGHTS 0x02

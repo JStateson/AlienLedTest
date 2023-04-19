@@ -91,13 +91,13 @@ bool AlienfxInit() {
 #ifdef ALIENFX_DEBUG
     std::cout << "FindDevice" << std::endl;
 #endif
-    if (FindDevice(0x187c, 0x511, AlienfxDeviceName)) {
+    if (FindDevice(0x187c, 0x550, AlienfxDeviceName)) {
         hDeviceHandle = CreateFile(AlienfxDeviceName.c_str(), GENERIC_WRITE | GENERIC_READ, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, OPEN_EXISTING, 0, NULL);
         if (hDeviceHandle == NULL)
             return false;
         return true;
     }
-    if (FindDevice(0x187c, 0x512, AlienfxDeviceName)) {
+    if (FindDevice(0x187c, 0x526, AlienfxDeviceName)) {
 #ifdef ALIENFX_DEBUG
         std::cout << "Opening new alienfx device" << std::endl;
 #endif
@@ -645,6 +645,7 @@ int main()
     ofstream LogFile;
     string desc;
     char input;
+    int iTemp;
 
     cout << "This program comes without ANY warranty that it is working and/or "
         << "will not damage your hardware or lead to any data loss. It was not "
@@ -698,7 +699,8 @@ int main()
 
     // Disable all the LEDs of the AlienFX device
     AlienfxWaitForBusy();
-    AlienfxReset((byte) ALIENFX_ALL_OFF);
+    iTemp = ALIENFX_SLEEP_LIGHTS; //ALIENFX_ALL_OFF;
+    AlienfxReset((byte) iTemp);
     Sleep(2);
     AlienfxWaitForReady();
     AlienfxSetColor((byte)ALIENFX_STAY, (byte)1, 0xFFFFFF, 0);
