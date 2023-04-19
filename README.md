@@ -30,9 +30,5 @@ r4_bios is the reg file temporarily to replace the above.  Needed only to instal
 AlenwareAlienFX is reg to change unknown to Area51R4
 
 usbview show connected USB devices
-=======
 
-The app made a connection using 0x526 and did affect a change to the LED
-
-The purpose of this app is to get the LED lighting to work on a case that I added an MSI x299 raider motherboard
->>>>>>> f89694d634d2ae04cb77c895a166943c8fec810e
+r4-case-lights  word document describing how to get lights to work on R4 Area51 case
