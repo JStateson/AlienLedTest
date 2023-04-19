@@ -29,6 +29,8 @@ r4_bios is the reg file temporarily to replace the above.  Needed only to instal
 
 AlenwareAlienFX is reg to change unknown to Area51R4
 
-usbview show connected USB devices
+usbview show connected USB devices and DevManView is device manager command line app
+
+Enable-R4-PCB is script to enable the Led lighting PCB but read the following for how to use it
 
 r4-case-lights  word document describing how to get lights to work on R4 Area51 case
