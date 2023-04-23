@@ -34,3 +34,11 @@ usbview show connected USB devices and DevManView is device manager command line
 Enable-R4-PCB is script to enable the Led lighting PCB but read the following for how to use it
 
 r4-case-lights  word document describing how to get lights to work on R4 Area51 case
+
+Other resources googleing dell alienfx api
+
+https://github.com/Gurjot95/AlienFX-SDK
+
+https://github.com/topics/alienfx-api
+
+https://github.com/antonpup
