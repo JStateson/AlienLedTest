@@ -42,3 +42,5 @@ https://github.com/Gurjot95/AlienFX-SDK
 https://github.com/topics/alienfx-api
 
 https://github.com/antonpup
+
+https://github.com/T-Troll/alienfx-tools
